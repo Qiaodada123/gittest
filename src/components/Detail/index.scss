@@ -1,0 +1,272 @@
+#detail{
+	#slider {
+		height:375px;
+	    margin-bottom: 10px; 
+	    .ui-slider {
+	     position: relative;
+         overflow: hidden;
+         height: 375px;
+	    }
+	    .ui-slider-content {
+	    	position:absolute;
+	     	top:0px;
+	    	left:0;
+	     	width:1875px;
+	       li{
+	        	float: left;
+	        	width: 375px;
+        	    height: 375px;
+	        	a{
+	        		display: block;
+	        	}
+	        	img {
+    		        display: block;
+    		        width:375px;
+    		        height:375px;
+    		    }
+	        }
+	       
+	    }
+
+	    
+	}
+	.detail{
+		background:#fff;
+		padding: 0 12px;
+		.iem-price1 {
+		    color: #f57684;
+		    font-size: 17px;
+		    font-weight: 100;
+		}
+		.space_price_div {
+		    padding: 10px 0;
+		    border-bottom: 1px solid #e8e8e8;
+		    padding-top: 0;
+		}
+		#old_price {
+		    font-size: 14px;
+		    color: #999;
+		}
+		del {
+		    text-decoration: line-through;
+		}
+		#fy_price {
+		    color: #999;
+		    padding-left: 5px;
+		}
+		.sale-count {
+		    float: right;
+		    font-size: 13px;
+		    color: #999;
+		}
+		.dec-title {
+		    margin: 10px 0;
+		    margin-top: 17px;
+		    font-weight: 700;
+		    max-height: 48px;
+		    overflow: hidden;
+		    font-size: 15px;
+		    color: #333;
+		}
+		.dec-info {
+		    font-size: 13px;
+		    color: #999;
+		}
+		.country {
+		    padding: 10px 0;
+		}
+		#contry-img {
+		    display: inline;
+		    vertical-align: middle;
+		    width: 22px;
+		    height: 22px;
+		    border-radius: 22px;
+		}
+		.country-name {
+		    padding: 2px 5px;
+		    line-height: 30px;
+		}
+		.warehouse {
+		    padding: 2px 0;
+		    line-height: 30px;
+		}
+		.warehouse {
+		    padding: 2px 0;
+		    line-height: 30px;
+		}
+		.fee-icon {
+		    float: right;
+		    display: block;
+		    width: 30px;
+		    height: 30px;
+		    background: url('http://m.seagoor.com/img/fee.png') no-repeat center;
+		    background-size: 22px;
+		}
+		.fee {
+		    float: right;
+		    margin-right: 3px;
+		    line-height: 20px;
+		    font-size: 13px;
+		    padding-top: 5px;
+		    color: #666;
+		    border-bottom: 1px solid #ccc;
+		}
+		#selectSizeColor {
+		    border-top: 1px solid #e8e8e8;
+		    border-bottom: 1px solid #e8e8e8;
+		    padding: 10px 0;
+		}
+		#selectSizeColor h2 {
+		    font-size: 14px;
+		    color: #999;
+		}
+		#size_color {
+		    font-size: 14px;
+		    color: #333;
+		}
+		.more_size {
+		    background: url('http://m.seagoor.com/img/item/arrow-in.png') center right no-repeat;
+		    background-size: 7px 12px;
+		    width: 100%;
+		    position: absolute;
+		    height: 22px;
+		    right: 10px;
+		}
+		.div_desc {
+		    padding: 12px 0;
+		    height: 19px;
+		    background: url('http://m.seagoor.com/img/item/descNew.png') left no-repeat;
+		    background-size: 90% 19px;
+		    .more_size {
+		        background: url('http://m.seagoor.com/img/item/arrow-in.png') center right no-repeat;
+		        background-size: 7px 12px;
+		        width: 100%;
+		        position: absolute;
+		        height: 22px;
+		        right: 10px;
+		    }
+		}
+	}
+	.div_detail {
+	    background-color: #fff;
+	    margin-bottom: 50px;
+	}
+	.div_show_detail {
+	    font-size: 13px;
+	    color: #333;
+	    position: relative;
+	    height: 44px;
+	    text-align: center;
+	    line-height: 44px;
+	}
+	.down:before {
+	    content: '';
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    background: url('http://m.seagoor.com/img/item/down1.png') center no-repeat;
+	    background-size: auto 12.5px;
+	}
+	.shopBar {
+	    position: fixed;
+	    width: 100%;
+	    bottom: 0;
+	    left: 0;
+	    background-color: #f9f9f9;
+	    z-index: 10;
+	    font-size: 12px;
+	    height: 50px;
+	}
+	ul{
+		display: flex;
+		display:-webkit-flex;
+	}
+	.shopBar ul li:nth-child(1){
+		border-left:0
+	}
+	.shopBar ul li {
+	    border-left: 1px solid #ccc;
+	    border-top: 1px solid #ccc;
+	    list-style: none;
+	    height: 50px;
+	    text-align: center;
+	}
+	.item-shopcar {
+	    width: 70px;
+	}
+	.ui-badge-wrap {
+	    position: relative;
+	    text-align: center;
+	}
+	.imgbox {
+	    width: 40px;
+	    height: 40px;
+	    margin: 5px auto;
+	    position: relative;
+	    background: url('http://m.seagoor.com/img/item/shopcar-normal1.png') center 2px no-repeat;
+	    background-size: 23px;
+	    line-height: 68px;
+	    a{
+	    	color: #929292;
+	    	text-decoration: none;
+	    }
+	}
+	.shopBar ul li .ui-badge {
+	    height: 16px;
+	    position: absolute;
+	    top: -5px;
+	    right: -5px;
+	    display: none;
+	}
+	.shopBar ul li .ui-badge, .ui-badge-muted, .ui-badge-num, .ui-badge-corner, .ui-badge-cornernum {
+	    display: inline-block;
+	    text-align: center;
+	    background: #f74c31;
+	    color: #fff;
+	    font-size: 11px;
+	    height: 16px;
+	    line-height: 16px;
+	    -webkit-border-radius: 8px;
+	    padding: 0 6px;
+	    background-clip: padding-box;
+	}
+	.item-addshop {
+	    width: 148px;
+	}
+	.item-addshop-text {
+	    font-size: 16px;
+	    color: #ee3e53;
+	    outline: medium;
+	}
+	.item-addshop-text {
+	    line-height: 50px;
+	}
+	button {
+	    -webkit-appearance: none;
+	    border: 0;
+	    background: 0 0;
+	    outline: medium;
+	   
+	}
+	.shopBar ul li.item-buy {
+	    border: 0;
+	}
+	.item-buy {
+	    background-color: #ee3e54;
+	    -webkit-box-flex: 1;
+	     width: 156px;
+	}
+	.item-buy-text {
+	    color: #fff;
+	    font-size: 16px;
+	    line-height: 50px;
+
+	}
+	.item-none{
+		display: none;
+	}
+
+
+}

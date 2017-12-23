@@ -1,0 +1,59 @@
+#navbar{
+	header {
+	    border: 0;
+	    border-bottom: #ccc 1px solid;
+	    position: fixed;
+	    z-index:99;
+	    left: 0;
+	    top: 0;
+	    width:375px;
+	    height: 50px;
+	    background:#fff;
+	     h1 {
+	        padding: 0;
+	        margin: 0 40px;
+	        line-height: 55px;
+	        text-align: center;
+	        white-space: nowrap;
+	        text-overflow: ellipsis;
+	        overflow: hidden;
+	        font-size: 18px;
+	        font-weight: normal;
+	    }
+	    .goBack {
+	        display: block;
+	        position: absolute;
+	        width: 44px;
+	        height: 50px;
+	        top: 0;
+	        left: 0;
+	        background: url('http://m.seagoor.com/img/back.png') no-repeat center;
+	        background-size: 10px;
+	    }
+	    .top_menu {
+	        position: absolute;
+	        top: 0;
+	        right: 0;
+	        height: 50px;
+	        width: 100px;
+	        .goShare {
+	        	display: none;
+	            float: right;
+	            right: 0;
+	            width: 44px;
+	            height: 50px;
+	            background: url('http://m.seagoor.com/img/share.png') no-repeat center;
+	            background-size: 18px;
+	        }
+	        .kf_btn {
+	            float: right;
+	            right: 0;
+	            width: 44px;
+	            height: 50px;
+	            background: url('http://m.seagoor.com/img/home/call.png') no-repeat center;
+	            background-size: 18px;
+	        }
+	    }
+	    
+	}
+}

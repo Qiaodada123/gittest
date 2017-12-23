@@ -1,0 +1,56 @@
+#footer{
+
+	height:50px;
+	position: fixed;
+	bottom:0;
+	left:0;
+	overflow:hidden;
+	width:100%;
+	background-color:#f9f9f9;
+	color:#f9f9f9;
+    z-index: 10;
+    font-size: 10px;
+    a{
+    	text-decoration: none;
+    	color:#D1D1D1;
+    }
+	 
+	    ul li {
+	       float: left;
+	       list-style: none;
+	       width: 25%;
+	       text-align: center;
+	       height: 50px;
+	      
+	   }
+	   .xg-active .bar-home {
+	       background: url('http://m.seagoor.com/img/index-a.png') center 5px no-repeat;
+	       background-size: 24px;
+	       color: #000;
+	   }
+	   .bar-classify {
+	       background: url('http://m.seagoor.com/img/classify.png') center 5px no-repeat;
+	       background-size: 24px;
+	   }
+	   .bar-cart {
+	       background: url('http://m.seagoor.com/img/item/shopcar-normal.png') center 5px no-repeat;
+	       background-size: 24px;
+	   }
+	   .bar-personal {
+	       background: url('http://m.seagoor.com/img/home.png') center 5px no-repeat;
+	       background-size: 24px;
+	   }
+	   .bar-home, .bar-shop, .bar-classify, .bar-cart, .bar-personal, .xg-active .bar-cart, .xg-active .bar-home, .xg-active .bar-personal {
+	       display: block;
+	       height: 50px;
+	       left: 0;
+	       top: 0;
+	       line-height: 85px;
+	       background-attachment: scroll;
+	       background-clip: border-box;
+	       background-color: rgba(0,0,0,0);
+	       background-origin: padding-box;
+	       background-size: auto 24px;
+	   }
+	
+}

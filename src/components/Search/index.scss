@@ -1,0 +1,177 @@
+#search{
+	.div_search_head {
+	    height: 50px;
+	    display: -webkit-box;
+	    border-bottom: 1px solid #ccc;
+	    .back {
+	        display: block;
+	        width: 40px;
+	        height: 100%;
+	        background: url('http://m.seagoor.com/img/back.png') no-repeat center;
+	        background-size: 10px;
+	    }
+	}
+
+	#id_input_search_box {
+	    -webkit-box-flex: 1;
+	    display: -webkit-box;
+	    background-color: #e9ebed;
+	    border-radius: 5px;
+	    margin-right: 10px;
+	    margin-top: 10px;
+	    height: 30px;
+	    .div_search_img {
+	        width: 30px;
+	        background: url('http://m.seagoor.com/img/classify/search.png') center no-repeat;
+	        background-size: 10px;
+	    }
+	    .div_search_input_box input {
+	        width: 88%;
+	        height: auto;
+	        border: 0;
+	        font-size: 13px;
+	        color: #333;
+	        background-color: transparent;
+	        line-height: 30px;
+	        display: block;
+	        outline: medium
+	    }
+	    .div_search_input_box {
+	        -webkit-box-flex: 1;
+	        position: relative;
+	        text-align: left;
+	        .div_clear_input {
+	            position: absolute;
+	            right: 10px;
+	            top: 0;
+	            bottom: 0;
+	            width: 15px;
+	            background: url('http://m.seagoor.com/img/classify/clear.png') center no-repeat;
+	            background-size: 15px;
+	            background-color: #e9ebed;
+	            z-index: 9000;
+	        }
+	        
+	    }
+	    
+	}
+	
+//--------------销量---------------
+	.div_search_sort {
+	    height: 39px;
+	    line-height: 39px;
+	    border-top: 1px solid #ccc;
+	    border-bottom: 1px solid #ccc;
+	    display: -webkit-box;
+	    font-size: 13px;
+	    color: #333;
+	    border-top:none;
+	}
+	.current_sort {
+	    color: #ee3e54;
+	}
+	.div_search_sort_item {
+	    -webkit-box-flex: 1;
+	    text-align: center;
+	}
+	.div_search_sort_item {
+	    -webkit-box-flex: 1;
+	    text-align: center;
+	}
+	.div_search_sort_item>u {
+	    display: inline-block;
+	    width: 8px;
+	    height: 13px;
+	    margin-left: 4px;
+	    background: url('http://m.seagoor.com/img/classify/sort_default.png') center no-repeat;
+	    background-size: 100%;
+	}
+	.div_search_sort_item {
+	    -webkit-box-flex: 1;
+	    text-align: center;
+	}
+	.line {
+	    height: 12px;
+	    border-left: 1px solid #ccc;
+	    width: 1px;
+	    line-height: 39px;
+	    margin-top: 13px;
+	}
+	.sortByChoose {
+	    -webkit-box-flex: 1;
+	    text-align: center;
+	}
+	.sortByChoose .icon_choose {
+	    display: inline-block;
+	    width: 8px;
+	    height: 8px;
+	    margin-left: 4px;
+	    background: url('http://m.seagoor.com/img/classify/icon-choose.png') center no-repeat;
+	    background-size: 100%;
+	}
+//--------------销量---------------
+
+//--------------列表---------------
+
+.div_search_list{
+	border-top: none;
+}
+.div_search_list {
+    overflow: hidden;
+    background: #fff;
+}
+.ul_search_list {
+    display: block;
+    margin-left: 5px;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 52px;
+}
+.li_search_item {
+    width: 50%;
+    margin-top: 5px;
+    float: left;
+    background: #fff;
+}
+.div_img {
+    margin-right: 5px;
+    height: 180px;
+    background: url('http://m.seagoor.com/img/index/loading_shop_list.png') no-repeat center;
+    background-size: 100%;
+}
+.div_img img {
+    width: 180px;
+    height: 180px;
+}
+.div_item_name {
+    margin-right: 15px;
+    margin-left: 10px;
+    font-size: 13px;
+    color: #333;
+    line-height: 17px;
+    height: 34px;
+    overflow: hidden;
+}
+.div_item_price {
+    margin-left: 10px;
+}
+.price {
+    color: #ee3e54;
+    font-size: 13px;
+}
+.price span {
+    font-size: 15px;
+}
+.old_price {
+    color: #999;
+    font-size: 8px;
+    margin-left: 2px;
+    text-decoration: line-through;
+}
+
+
+
+
+//--------------列表---------------
+}
+

@@ -1,0 +1,436 @@
+#home{
+	// 头部
+	a{
+		text-decoration: none;
+	}
+	img{
+		border:0;
+	}
+	.ui-header {
+	    border-bottom: 1px solid #ccc;
+	    background-color: #fff;
+	    color: #333;
+	    font-size: 0.46rem;
+	    text-align: center;
+	    position: absolute;
+	    width: 100%;
+	    height: 100%;
+	}
+	.ui-header, .rule-header {
+	    top: 0;
+	    height: 0.9rem;
+
+	    line-height: 0.9rem;
+	}
+
+	.ui-header-img {
+	    background: url('http://m.seagoor.com/img/header.png') center no-repeat;
+	    background-size: auto 0.42rem;
+	    height: 100%;
+	}
+
+	.indexSearchBtn {
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	    width:0.9rem;
+	    height: 0.9rem;
+	    display: block;
+	    background: url('http://m.seagoor.com/img/indexSearch.png') no-repeat center;
+	    background-size: 0.4rem 0.4rem;
+	}
+	.SearchBtn{
+		display: block;
+		height: 45px;
+		width:45px;
+	}
+	a {
+	    color: #929292;
+	    display: block;
+	}
+	.index_scan {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 0.9rem;
+	    height: 0.9rem;
+	    display: block;
+	    background: url('http://m.seagoor.com/img/indexScan.png') no-repeat center;
+	    background-size: 0.4rem 0.4rem;
+	}
+	//轮播图
+	#slider{
+		width:100%;
+		 height: 3.675rem;
+		  position: relative;
+	    top:0.9rem;
+	    overflow: hidden;
+	}
+	.ui-slider {
+	     background-size: 100% 3.5rem;
+	     height: 183.75px;
+	}
+	.ui-slider {
+	    // width: 375px;
+	    width:100%;
+	    overflow: hidden;
+	   
+	}
+	.ui-slider-content li img{
+	   	// width:375px;
+width:100%;
+	    height: 3.675rem;
+	}
+
+//环球美食
+.div_top_lab {
+    margin-top: 50px;
+}
+.div_top_icon {
+    display: -webkit-box;
+}
+.div_top_icon div {
+    -webkit-box-flex: 1;
+    height: 67px;
+    text-align: center;
+    font-size: 11px;
+    line-height: 27px;
+    width: 20%;
+}
+.div_top_icon a {
+    color: #333;
+    text-decoration: none;
+}
+.error {
+   background-size: 37px 36px;
+}
+.div_top_icon div img {
+    display: block;
+    height: 36px;
+    width: auto;
+    margin: 0 auto;
+}
+
+//拼团
+.groupconfigure{
+	border-top: 10px solid rgb(238, 238, 238);
+    border-bottom: 10px solid rgb(238, 238, 238);
+}
+.groupconfigure_head {
+    width: 100%;
+    height: 39px;
+    line-height: 39px;
+    background-image: url('http://m.seagoor.com/img/xg_groups.png');
+    background-repeat: no-repeat;
+    background-size: 76px 19px;
+    background-position: 10px;
+    position: relative;
+}
+.tuan_show_more {
+    background-image: url('http://m.seagoor.com/img/more.png');
+    background-repeat: no-repeat;
+    background-size: 6px 9px;
+    background-position: 38px 4px;
+    line-height: 17px;
+    height: 19px;
+    border-left: 1px solid #ccc;
+    position: absolute;
+    top: 11px;
+    right: 10px;
+    font-size: 12px;
+    color: #333;
+    height: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tuanlist{
+	height:141px;
+}
+.ui-scroller-a {
+    width: auto;
+    height: 170px;
+    overflow: hidden;
+}
+.seckill-new-container {
+    width: 100%;
+    height: 170px;
+    overflow: hidden;
+    position: relative;
+}
+.ui-scroller-a seckill-new-container{
+	height:141px;
+}
+.ui-slider-content {
+    display: -webkit-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+.seckill-new-container ul li {
+    width: 103.333px;
+    margin-left: 10px;
+}
+.ui-scroller-a li {
+    margin-bottom: 10px;
+}
+.ui-slider-content>li {
+    -webkit-box-flex: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.error_tuan{
+	display: block;
+    width: 100%;
+    height: 99px;
+    overflow: hidden;
+}
+.error_tuan {
+    background: url('http://m.seagoor.com/img/index/loading_shop_list.png') no-repeat center;
+    background-size: 100%;
+}
+.ui-slider-content>li img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+img {
+    width: 100%;border: 0;
+}
+.seckill-item-price {
+    width: 100%;
+}
+.ui-slider-content>li span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;
+}
+.group-new-price {
+    display: block;
+    color: #ee3e54;
+    font-size: 16px;
+    line-height: 14px;
+    text-align: center;
+    padding-top: 10px;
+}
+.groupnub {
+    padding: 1px 3px;
+    font-size: 9px;
+    font-weight: 600;
+    margin-right: 3px;
+    background-color: #fad8d9;
+    border-radius: 3px;
+    color: #ee3e54;
+}
+strong, b {
+    font-weight: bold;
+}
+.groupnub {
+    padding: 1px 3px;
+    font-size: 9px;
+    font-weight: 600;
+    margin-right: 3px;
+    background-color: #fad8d9;
+    border-radius: 3px;
+    color: #ee3e54;
+    b {
+	    font-weight: bold;
+	}
+}
+ .lS {
+    font-size: 11px;
+}
+.lG {
+    font-size: 14px;
+    color: #ee3e54;
+    padding-top: -24px;
+    font-weight: 300;
+}
+.group-new-price {
+    display: block;
+    color: #ee3e54;
+    font-size: 16px;
+    line-height: 14px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+//抢购
+.activity_configure{
+	width:100%;
+	.qiangwrap{
+		overflow: hidden;
+		.qiang a{
+			img{
+				width:50.00%;
+				height:196px;
+				float: left;
+			}
+		}
+	}
+	
+	.jingxuan{
+		width:100.00%; 
+		height:35px;
+		overflow: hidden;
+		a{
+			display: block;
+			height: 100%;
+			img{
+				width: 100%;
+				border:0;
+				height: 35px;
+				display: block;
+			}
+		}
+	}
+	.gouwrap{
+		a{
+			display: block;
+			img{
+				display: block;
+			}
+		}
+		.gowei{
+			float: left;
+			width: 50%;
+		}
+	}
+	.pingpaituanwrap{
+		overflow: hidden;
+		width: 100%;
+		a{
+			display: block;
+			img{
+				display: block;
+			}
+		}
+		.pinpaipai{
+			float: left;
+			width:33%;
+		}
+	}
+
+}
+
+.div_img:after {
+    content: '';
+    position: absolute;
+    bottom: 6px;
+    left: 15px;
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid #fff;
+}
+
+#indexlists{
+	margin-bottom:100px;
+	.div_img {
+	    position: relative;
+	    min-height: 168px;
+	    a {
+	        color: #929292;
+	        img {
+	            width: 100%;
+	        }
+	    }
+	}
+	
+	.ui-scroller-a {
+	    width: auto;
+	    height: 170px;
+	    overflow: hidden;
+	}
+	.seckill-new-container {
+	    width: 100%;
+	    height: 170px;
+	    overflow: hidden;
+	    position: relative;
+	}
+	ul{
+		transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px);
+	}
+	.ui-slider-content {
+	    display: -webkit-box;
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    height: 100%;
+
+	}
+	.seckill-new-container ul li {
+	    width: 103.333px;
+	    margin-left: 10px;
+	    width:99px;
+	   
+	}
+	.ui-scroller-a li {
+	    margin-bottom: 10px;
+	}
+	.ui-slider-content>li {
+	    -webkit-box-flex: 1;
+	    width: 100%;
+	    height:169px;
+	}
+	.seckill-item-price{
+		width:100%;
+	}
+	.ui-slider-content>li span.seckill-new-title {
+	    display:block;
+	    overflow: hidden;
+	    font-size: 12px;
+	    text-align: center;
+	    height: 28px;
+	    line-height: 14px;
+	    color: #333;
+	    width:99px;
+	    white-space: nowrap;
+	    margin-top: 10px;
+	}
+
+	.ui-slider-content>li span {
+	    display: block;
+	    width: 100%;
+	}
+	.seckill-new-title {
+	    color: #333;
+	    font-size: 10px;
+	}
+	.ui-slider-content>li span {
+	    display: block;
+	    width: 100%;
+	    background-repeat: no-repeat;
+	}
+	.seckill-new-price {
+	    display: block;
+	    color: #ee3e54;
+	    font-size: 10px;
+	    line-height: 14px;
+	    text-align: center;
+	    padding-top: 6px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
